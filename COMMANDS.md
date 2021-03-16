@@ -21,3 +21,28 @@ Resolving deltas: 100% (36/36), done.
 <details>
     <summary>cd ex_venture</summary>
 </details>
+
+<details>
+    <summary>flyctl init</summary>
+
+```
+? App Name (leave blank to use an auto-generated name) ex-venture
+
+Automatically selected personal organization
+
+? Select builder: Dockerfile
+    (Do not set a builder and use the existing Dockerfile)
+? Select Internal Port: 4000
+New app created
+Name         = ex-venture
+Organization = personal
+Version      = 0
+Status       =
+Hostname     = <empty>
+
+App will initially deploy to sea (Seattle, Washington (US)) region
+
+Wrote config file fly.toml
+```
+
+</details>
