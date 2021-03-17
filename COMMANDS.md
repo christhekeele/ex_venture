@@ -62,3 +62,34 @@ Wrote config file fly.toml
   ```
 
 </details>
+
+<details>
+    <summary>flyctl postgres create</summary>
+
+```
+  ? App name: ex-venture-db
+  Automatically selected personal organization
+  ? Select region: sea (Seattle, Washington (US))
+  ? Select VM size: shared-cpu-1x - 256
+  ? Volume size (GB): 10
+  Creating postgres cluster ex-venture-db in organization personal
+  Postgres cluster ex-venture-db created
+    Username:    postgres
+    Password:    ********
+    Hostname:    ex-venture-db.internal
+    Proxy Port:  5432
+    PG Port: 5433
+  Save your credentials in a secure place, you won't be able to see them again!
+
+  Monitoring Deployment
+  You can detach the terminal anytime without stopping the deployment
+
+  2 desired, 2 placed, 2 healthy, 0 unhealthy [health checks: 6 total, 6 passing]
+  --> v0 deployed successfully
+
+  Connect to postgres
+  Any app within the personal organization can connect to postgres using the above credentials and the hostname "ex-venture-db.internal."
+  For example: postgres://postgres:********@ex-venture-db.internal:5432
+  ```
+
+</details>
