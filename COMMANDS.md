@@ -93,3 +93,14 @@ Wrote config file fly.toml
   ```
 
 </details>
+
+<details>
+    <summary>flyctl postgres attach --app ex-venture --postgres-app ex-venture-db</summary>
+
+```
+Postgres cluster ex-venture-db is now attached to ex-venture
+The following secret was added to ex-venture:
+    DATABASE_URL=postgres://ex_venture_****:********@ex-venture-db.internal:5432/ex_venture?sslmode=disable
+```
+
+</details>
