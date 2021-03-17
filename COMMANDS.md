@@ -46,3 +46,19 @@ Wrote config file fly.toml
 ```
 
 </details>
+
+<details>
+    <summary>flyctl deploy</summary>
+
+    Without environment vars configured:
+  
+  ```
+   Application ex_venture exited: ExVenture.Application.start(:normal, []) returned an error: shutdown: failed to start child: ExVenture.Repo
+   ENV vars not set: DATABASE_URL, POOL_SIZE
+    ** (Vapor.LoadError) There were errors loading configuration:
+        (vapor 0.10.0) lib/vapor.ex:42: Vapor.load!/1
+
+  ***v0 failed - Failed due to unhealthy allocations - no stable job version to auto revert to
+  ```
+
+</details>
